@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  width: 100%;
+  background-color: #fff;
+}
+
+.wrapper{
+  max-width: 1283px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*Main classes*/
+
+h1{
+  font-size: 60px;
+  color: #000;
+  font-family: "OpenSansExtraBold";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h1 span{
+  letter-spacing: 5px;
+}
+
+h2{
+  font-family: "OpenSansBold";
+  color: #585858;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+h3{
+  font-family: "OpenSansSemiBold";
+  color: #000;
+  font-size: 27px;
+}
+
+p{
+  font-size: 16px;
+  color: #000;
+  font-family: "OpenSansRegular";
+  line-height: 1.75;
+}
+
+.btn{
+  display: block;
+  height: 55px;
+  width: 225px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(255, 45, 45);
+  font-family: "OpenSansBold";
+}
+
+/*Header classes*/
+
+header{
+  background-color: #f6f2f2;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 28px 0 120px;
+}
+
+nav{
+  margin: 0 18px;
+  background-color: #313030;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  padding: 40px 2% 30px ;
+}
+
+li.current{
+  background-color: #ff3f40;
+}
+
+li a{
+  color: #e0e0e0;
+  font-family: "OpenSansBold";
+  font-size: 14px;
+}
+
+header section{
+  max-width: 515px;
+  margin-top: 95px;
+  margin-left: 18px;
+}
+
+header section .btn{
+  margin-top: 60px;
+}
+
+header .video{
+  box-shadow: 0px 14px 73px 0px rgba(0, 0, 0, 0.29);
+  position: absolute;
+  right: 18px;
+  top: 190px;
+}
+
+    /*Main body classes*/
+
+/*Services*/
+
+.services{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 18px;
+  margin-top: 110px;
+}
+
+.services .presentation{
+  flex-basis: 500px;
+}
+
+.services .presentation .btn{
+  background-color: transparent;
+  color: #ff2d2d;
+  border-color: rgb(255, 0, 0);
+  border: 2px solid ;
+  border-radius: 5px;
+  height: 50px;
+  width: 225px;
+  padding-top: 10px;
+  margin-top: 50px;
+}
+
+.services .service-list{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 640px;
+}
+
+.services .service-list h3,
+.services .service-list p{
+  color: rgba(0, 0, 0, 0.702);
+}
+
+
+.services .service-list .list-item{
+  flex-basis: 45.25%;
+  padding-top: 65px;
+  margin-left: 4.75%;
+  margin-bottom: 40px;
+  background-repeat: no-repeat;
+}
+
+.services .service-list .list-item:nth-of-type(1){
+  background-image: url("../img/ServiceManagement.png");
+}
+.services .service-list .list-item:nth-of-type(2){
+  background-image: url("../img/ServiceUI.png");
+}
+.services .service-list .list-item:nth-of-type(3){
+  background-image: url("../img/ServiceLogo.png");
+}
+.services .service-list .list-item:nth-of-type(4){
+  background-image: url("../img/ServiceAnimation.png");
+}
