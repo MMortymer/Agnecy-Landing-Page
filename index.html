@@ -2,87 +2,123 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Agnecy Landing Page</title>
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-		<header>
+	<header>
 			<div class="wrapper">
-				<nav>
-					<ul>
-						<li class="current"><a href="">HOME</a></li>
-						<li><a href="#productsa">PORTFOLIO</a></li>
-						<li><a href="#teama">ABOUT US</a></li>
-						<li><a href="#feedbacka">CONTACT</a></li>
-					</ul>
-				</nav>
+				<div class="burger-nav">
+					<input type="checkbox" class="burger" id="burger-check">
+					<label class="burger-btn" for="burger-check"></label>
+					<nav>
+						<ul>
+							<li class="current"><a href="">HOME</a></li>
+							<li><a href="#productsa">PORTFOLIO</a></li>
+							<li><a href="#teama">ABOUT US</a></li>
+							<li><a href="#feedbacka">CONTACT</a></li>
+						</ul>
+					</nav>
+				</div>
 				<section>
 					<h1>our strong <span>organaisation</span></h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, dolor sit amet, sed do eiusmod tempor incididunt.</p>
 					<a href="#feedbacka" class="btn">Contact Us</a>
+					<div class="video-wrap">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/o7sVKibg378?ecver=1" frameborder="0" allowfullscreen class="video"></iframe>
+					</div>
 				</section>
-				<img class="video" src="img/Video.png" alt="Presentation Video">
 			</div>
-		</header>
+	</header>
 		
-		<main>
-			<div class="wrapper">
-				<section class="services">
-					<div class="presentation">
-						<h2>do you know we can provide for you ?</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
-						<a href="#feedbacka" class="btn">Learn More</a>
+	<main>
+		<div class="wrapper">
+			<section class="services">
+				<div class="presentation">
+					<h2>do you know we can provide for you ?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
+					<a href="#feedbacka" class="btn">Learn More</a>
+				</div>
+				<div class="service-list">
+					<div class="list-item">
+					  <img src="img/ServiceManagement.png" alt="">
+						<h3>Management</h3>
+						<p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
 					</div>
-					<div class="service-list">
-						<div class="list-item">
-							<h3>Management</h3>
-							<p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
-						</div>
-						<div class="list-item">
-							<h3>UI /UX Design</h3>
-							<p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
-						</div>
-						<div class="list-item">
-							<h3>Logo / Branding</h3>
-							<p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
-						</div>
-						<div class="list-item">
-							<h3>Animation</h3>
-							<p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
-						</div>
-					</div>			
-				</section>
+					<div class="list-item">
+						<img src="img/ServiceUI.png" alt="">
+						<h3>UI /UX Design</h3>
+						<p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+					</div>
+					<div class="list-item">
+						<img src="img/ServiceLogo.png" alt="">
+						<h3>Logo / Branding</h3>
+						<p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+					</div>
+					<div class="list-item">
+					<img src="img/ServiceAnimation.png" alt="">
+						<h3>Animation</h3>
+						<p>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+					</div>
+				</div>			
+			</section>
 				
-				<section class="products" id="productsa">
-					<h2>feature products</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod<br> tempor incididunt ut labore et.</p>
-					<nav>
-						<a href="#" class="current">all</a>
-						<a href="#">print template</a>
-						<a href="#">web template</a>
-						<a href="#">user interface</a>
-						<a href="#">mock-up</a>
-					</nav>
-					<div class="products-grid">
-						<div class="product"></div>
-						<div class="product"></div>
-						<div class="product"></div>
-						<div class="product"></div>
-						<div class="product"></div>
-						<div class="product"></div>
-						<div class="product"></div>
-						<div class="product"></div>
+			<section class="products" id="productsa">
+				<h2>feature products</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod<br> tempor incididunt ut labore et.</p>
+				<nav>
+					<label for="all" class="current">all</label>
+					<label for="print">print template</label>
+					<label for="web">web template</label>
+					<label for="ui">user interface</label>
+					<label for="mockup">mock-up</label>
+				</nav>
+				<div class="products-grid">
+					<input type="radio" name="choise" id="all" checked>
+					<input type="radio" name="choise" id="print">
+					<input type="radio" name="choise" id="web">
+					<input type="radio" name="choise" id="ui">
+					<input type="radio" name="choise" id="mockup">
+					<div class="product all print">
+						<img src="img/ProductPrint1.png" alt="">
 					</div>
-				</section>
+					<div class="product all web">
+						<img src="img/ProductWeb1.png" alt="">
+					</div>
+					<div class="product all mockup">
+						<img src="img/ProductMockup2.png" alt="">
+					</div>
+					<div class="product all print">
+						<img src="img/ProductPrint2.png" alt="">
+					</div>
+					<div class="product all web">
+						<img src="img/ProductWeb2.png" alt="">
+					</div>
+					<div class="product all ui">
+						<img src="img/ProductUI1.png" alt="">
+					</div>
+					<div class="product all mockup">
+						<img src="img/ProductMockup1.png" alt="">
+					</div>
+					<div class="product all ui">
+						<img src="img/ProductUI2.png" alt="">
+					</div>
+				</div>
+			</section>
 
-				<section class="team" id="teama">
-					<h2>Meet our team</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed<br> dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
-					<img src="img/zz.png" alt="Our teammate" class="photo active photo-main">
-					<div class="main-info">
+			<section class="team" id="teama">
+				<h2>Meet our team</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed<br> dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+				<div class="bio" id="bioa">
+					<img src="img/zz.png" alt="Our teammate" class="photo-main person-1 current">
+					<img src="img/z3.PNG" alt="Our teammate" class="photo-main person-2">
+					<img src="img/person.png" alt="Our teammate" class="photo-main person-3">
+					<img src="img/person.png" alt="Our teammate" class="photo-main person-4">
+					<div class="main-info person-1 current">
 						<h3>mark waugh</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux, print template.</p>
 						<div class="portfolio-links">
 							<a href="https://www.facebook.com/" target="_blank">Facebook</a>
 							<a href="https://dribbble.com/" target="_blank">Dribbble</a>
@@ -90,56 +126,108 @@
 							<a href="https://twitter.com/" target="_blank">Twitter</a>
 						</div>
 					</div>
-					<div class="team-list">
-						<img src="" alt="" class="photo-mini">
-						<img src="" alt="" class="photo-mini">
-						<img src="" alt="" class="photo-mini">
-						<img src="" alt="" class="photo-mini">
+					<div class="main-info person-2">
+						<h3>maksim kovalenko</h3>
+						<p>Lorem ipsum dolor sit  consectetur adipis cing elit dooing ei tempor incidit labo Ui / Ux, print template.</p>
+						<div class="portfolio-links">
+							<a href="https://www.facebook.com/" target="_blank">Facebook</a>
+							<a href="https://www.behance.net/" target="_blank">Behance</a>
+							<a href="https://twitter.com/" target="_blank">Twitter</a>
+						</div>
 					</div>
-				</section>
-			</div>
+					<div class="main-info person-3">
+						<h3>m. mortymer</h3>
+						<p>Lorem ipsum dolor sit tempor incidit consectetur adipis cing elit dooing ei tempor incidit labo Ui / Ux, print template elit dooing.</p>
+						<div class="portfolio-links">
+							<a href="https://www.facebook.com/" target="_blank">Facebook</a>
+							<a href="https://www.behance.net/" target="_blank">Behance</a>
+						</div>
+					</div>
+					<div class="main-info person-4">
+						<h3>lorem ipsum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux, print template.</p>
+						<div class="portfolio-links">
+							<a href="https://dribbble.com/" target="_blank">Dribbble</a>
+							<a href="https://www.behance.net/" target="_blank">Behance</a>
+							<a href="https://twitter.com/" target="_blank">Twitter</a>
+						</div>
+					</div>
+				</div>
+				<div class="team-list">
+					<div class="photo-mini person-1"><a href="#bioa"></a></div>
+					<div class="photo-mini person-2"><a href="#bioa"></a></div>
+					<div class="photo-mini person-3"><a href="#bioa"></a></div>
+					<div class="photo-mini person-4"><a href="#bioa"></a></div>
+				</div>
+			</section>
+		</div>
 
-			<section class="subscribe">
-				<h2>Design tips, tricks, and freebies. Delivered weekly.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+		<section class="subscribe">
+			<h2>Design tips, tricks, and freebies. Delivered weekly.</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+			<form action="">
+				<input type="email" name="email" placeholder="Email Address...">
+			 	<input type="submit" value="Subscribe">
+			</form> 
+		</section >
+
+		<div class="wrapper">
+			<section class="feedback" id="feedbacka">
+				<h2>get in touch</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
 				<form action="">
-			  	<input type="email" name="email" placeholder="Email Address...">
-			  	<input type="submit" value="Subscribe">
+		  		<input type="text" name="name" placeholder="Name">
+		  		<input type="email" name="email" placeholder="Your Mail">
+		  		<textarea name="message" placeholder="Type your massage"></textarea>
+			 		<input type="submit" value="Subscribe">
 				</form> 
 			</section >
+			<section class="contact">
+				<h3>contact info</h3>
+				<p>Jalalabad 24 / A, Ambaarkhana, Sylhet,<br>
+				Bangladesh</p>
+				<p>redwan@deviserweb.com</p>
+				<p>(+88) 017 617 46373</p>
+			</section>
+		</div>
+	</main>
 
-			<div class="wrapper">
-				<section class="feedback" id="feedbacka">
-					<h2>get in touch</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-					<form action="">
-			  	<input type="text" name="name" placeholder="Name">
-			  	<input type="email" name="email" placeholder="Your Mail">
-			  	 <textarea name="message" placeholder="Type your massage"></textarea>
-			  	<input type="submit" value="Subscribe">
-					</form> 
-				</section >
-				<section class="contact">
-					<h3>contact info</h3>
-					<p>Jalalabad 24 / A, Ambaarkhana, Sylhet,<br>
-					Bangladesh</p>
-					<p>redwan@deviserweb.com</p>
-					<p>(+88) 017 617 46373</p>
-				</section>
+	<footer>
+		<div class="wrapper">
+			<p>© Copyright @Junaed 2016, All rights reserved.</p>
+			<div class="soc-icons">
+				<a href="https://twitter.com/" target="_blank"></a>
+				<a href="https://plus.google.com" target="_blank"></a>
+				<a href="https://www.linkedin.com/" target="_blank"></a>
+				<a href="https://twitter.com/" target="_blank"></a>
 			</div>
-		</main>
+		</div>
+	</footer>
 
-		<footer>
-			<div class="wrapper">
-				<p>© Copyright @Junaed 2016, All rights reserved.</p>
-				<div class="soc-icons">
-					<a href="https://twitter.com/" target="_blank"></a>
-					<a href="https://plus.google.com" target="_blank"></a>
-					<a href="https://www.linkedin.com/" target="_blank"></a>
-					<a href="https://twitter.com/" target="_blank"></a>
-				</div>
-			</div>
-		</footer>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function() {
+    $("main section.products nav label").click(function() {
+        $("main section.products nav label").removeClass("current");
+        $(this).toggleClass("current");
+    });
+    $("main section.team .team-list .person-1").click(function() {
+        $("main section.team .main-info , main section.team .photo-main").removeClass("current");
+        $("main section.team .person-1").addClass("current");
+    });
+    $("main section.team .team-list .person-2").click(function() {
+        $("main section.team .main-info , main section.team .photo-main").removeClass("current");
+        $("main section.team .person-2").addClass("current");
+    });
+    $("main section.team .team-list .person-3").click(function() {
+        $("main section.team .main-info , main section.team .photo-main").removeClass("current");
+        $("main section.team .person-3").addClass("current");
+    });
+    $("main section.team .team-list .person-4").click(function() {
+        $("main section.team .main-info , main section.team .photo-main").removeClass("current");
+        $("main section.team .person-4").addClass("current");
+    })
+	});
+	</script>
 </body>
 </html>
